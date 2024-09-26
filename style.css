@@ -39,7 +39,7 @@ font-size:larger;}
  }
 
 body {
-    background-image: url('../Images/diddybg.jpg');
+    background-image: url('./diddybg.jpg');
     background-repeat: no-repeat;
     background-size:cover;
 }
