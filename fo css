@@ -1,0 +1,67 @@
+h1 {
+    margin: 40px 30px;
+    padding:50px;
+    border: 5px ridge pink;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color:bisque;
+
+
+}
+p {color:pink;
+font-weight:bold;
+font-size:larger;}
+
+.box1 {
+    height: 20px;
+    width: 40px;
+    border: 2px red solid;
+    margin: 20px;
+}
+
+#smiley {
+    color: red;
+    font-size: 50pt;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    animation-name: move;
+    animation-duration: 3s;
+ }
+ 
+ @keyframes move {
+    0%   { color:red; left:0px; top:0px; }
+    25%   { color:yellow; left:200px; top:100px; }
+    50%  { color:blue; left:200px; top:0px; }
+    75%   { color:green; left:0px; top:100px; }
+    100% { color:red; left:0px; top:0px; }
+ }
+
+body {
+    background-image: url("https://champaignchronicle.com/wp-content/uploads/2024/04/unnamed-6.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+form {
+    font: 13px Arial;
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+
+ }
+
+ span {
+    color:palevioletred;
+    font-style: underline;
+    font-size: larger;
+    font-weight:bolder;
+ }
+ 
+ p1 {
+    color: palegoldenrod;
+    font-weight:bold;
+    font-size:larger;
+
+ }
